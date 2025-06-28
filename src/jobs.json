@@ -183,34 +183,6 @@
       }
     },
     {
-      "id": "43a0",
-      "title": "Keely Mcclain",
-      "type": "Full-Time",
-      "location": "Quam magna qui aut s",
-      "description": "Et qui quasi cupidat",
-      "salary": "$90K - $100K",
-      "company": {
-        "name": "Slater Decker Associates",
-        "description": "Tempora eaque distin",
-        "contactEmail": "pimymofep@mailinator.com",
-        "contactPhone": "+1 (746) 668-1903"
-      }
-    },
-    {
-      "id": "a591",
-      "title": "Ivana Webster",
-      "type": "Remote",
-      "location": "Est minus impedit m",
-      "description": "Officiis qui quae qu",
-      "salary": "$50K - $60K",
-      "company": {
-        "name": "Hays Rodriquez Inc",
-        "description": "Anim dignissimos nat",
-        "contactEmail": "gefuwegu@mailinator.com",
-        "contactPhone": "+1 (104) 905-9645"
-      }
-    },
-    {
       "id": "128c",
       "title": "Ulysses Stewart",
       "type": "Part-Time",
@@ -390,6 +362,160 @@
         "description": "Dolores dolorem sint",
         "contactEmail": "gojiqoxala@mailinator.com",
         "contactPhone": "+1 (891) 672-9193"
+      }
+    },
+    {
+      "id": "f66a",
+      "title": "Serena Bright",
+      "type": "Part-Time",
+      "location": "Veniam quas laborum",
+      "description": "Alias illo mollitia ",
+      "salary": "$50K - $60K",
+      "company": {
+        "name": "Atkinson Spencer Co",
+        "description": "Expedita qui debitis",
+        "contactEmail": "jalecex@mailinator.com",
+        "contactPhone": "+1 (939) 167-8732"
+      }
+    },
+    {
+      "id": "3755",
+      "title": "Elton Powers",
+      "type": "Remote",
+      "location": "Autem qui pariatur ",
+      "description": "Nulla dolor in hic e",
+      "salary": "$90K - $100K",
+      "company": {
+        "name": "Wiley Mcbride Trading",
+        "description": "Sunt autem repellend",
+        "contactEmail": "pyjudu@mailinator.com",
+        "contactPhone": "+1 (141) 856-7413"
+      }
+    },
+    {
+      "id": "17dd",
+      "title": "Calista Santiago",
+      "type": "Full-Time",
+      "location": "Esse minim optio r",
+      "description": "Corrupti maxime odi",
+      "salary": "Over $200K",
+      "company": {
+        "name": "Rivers Olson Co",
+        "description": "Illum ullam quasi n",
+        "contactEmail": "vowowucy@mailinator.com",
+        "contactPhone": "+1 (414) 655-2094"
+      }
+    },
+    {
+      "id": "748a",
+      "title": "Vivien Reilly",
+      "type": "Part-Time",
+      "location": "Deserunt ullam sit o",
+      "description": "Obcaecati in cum nos",
+      "salary": "$70K - $80K",
+      "company": {
+        "name": "Bryan Salazar Associates",
+        "description": "Est quisquam delect",
+        "contactEmail": "guze@mailinator.com",
+        "contactPhone": "+1 (779) 625-3563"
+      }
+    },
+    {
+      "id": "3dba",
+      "title": "Sara Mitchell",
+      "type": "Internship",
+      "location": "Aut unde aut explica",
+      "description": "Elit sed dolor even",
+      "salary": "$175K - $200K",
+      "company": {
+        "name": "Floyd Harrington LLC",
+        "description": "Ea aut ex fugiat sit",
+        "contactEmail": "qofa@mailinator.com",
+        "contactPhone": "+1 (526) 563-3278"
+      }
+    },
+    {
+      "id": "dab5",
+      "title": "Molly Salinas",
+      "type": "Part-Time",
+      "location": "Laboriosam et ea vo",
+      "description": "Iste quod irure quib",
+      "salary": "Over $200K",
+      "company": {
+        "name": "Benton Higgins Plc",
+        "description": "Non in quo commodo n",
+        "contactEmail": "fejyxewab@mailinator.com",
+        "contactPhone": "+1 (439) 323-8905"
+      }
+    },
+    {
+      "id": "0c60",
+      "title": "Brenden Velez",
+      "type": "Part-Time",
+      "location": "Sapiente voluptate o",
+      "description": "Nesciunt et qui qua",
+      "salary": "$80K - $90K",
+      "company": {
+        "name": "Kinney Drake LLC",
+        "description": "Consectetur repellen",
+        "contactEmail": "motymaxupi@mailinator.com",
+        "contactPhone": "+1 (566) 586-1632"
+      }
+    },
+    {
+      "id": "27b4",
+      "title": "Ezra Wyatt",
+      "type": "Full-Time",
+      "location": "Cum repudiandae magn",
+      "description": "Doloribus harum non ",
+      "salary": "$100K - $125K",
+      "company": {
+        "name": "Ortega Clayton Traders",
+        "description": "Qui ea ut quia sed",
+        "contactEmail": "foru@mailinator.com",
+        "contactPhone": "+1 (474) 463-7352"
+      }
+    },
+    {
+      "id": "d263",
+      "title": "Hilel Miles",
+      "type": "Part-Time",
+      "location": "Ad quis ex maxime ob",
+      "description": "Consectetur occaecat",
+      "salary": "Over $200K",
+      "company": {
+        "name": "Melton Talley LLC",
+        "description": "Eum quae exercitatio",
+        "contactEmail": "zytupofa@mailinator.com",
+        "contactPhone": "+1 (377) 376-4741"
+      }
+    },
+    {
+      "id": "ac19",
+      "title": "Aileen Cabrera",
+      "type": "Part-Time",
+      "location": "Commodo aut dolore e",
+      "description": "Labore iusto quidem ",
+      "salary": "Over $200K",
+      "company": {
+        "name": "Downs Giles LLC",
+        "description": "Ducimus consequat ",
+        "contactEmail": "tacev@mailinator.com",
+        "contactPhone": "+1 (293) 802-2809"
+      }
+    },
+    {
+      "id": "921e",
+      "title": "Jeanette Ortiz",
+      "type": "Internship",
+      "location": "Eos earum libero ip",
+      "description": "Quaerat obcaecati vo",
+      "salary": "$80K - $90K",
+      "company": {
+        "name": "Gay and Flores Plc",
+        "description": "Fugiat mollit velit",
+        "contactEmail": "tahydonihy@mailinator.com",
+        "contactPhone": "+1 (555) 726-2146"
       }
     }
   ]

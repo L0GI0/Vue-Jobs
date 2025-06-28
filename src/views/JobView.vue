@@ -2,15 +2,34 @@
 import PulseLoader from 'vue-spinner/src/PulseLoader.vue';
 import BackButton from '@/components/BackButton.vue';
 import { reactive, onMounted } from 'vue';
-import { useRoute, RouterLink } from 'vue-router';
+import { useRoute, RouterLink, useRouter } from 'vue-router';
+import { useToast } from 'vue-toastification';
 
 const route = useRoute();
+const router = useRouter();
 const jobId = route.params.id;
+const toast = useToast();
 
 const state = reactive({
     job: {},
     isLoading: true
 });
+
+const deleteJob = async () => {
+    try {
+        const confirm = window.confirm('Are you sure you want to delete this job?');
+        
+        if(!confirm)
+            return;
+        
+        await fetch(`/api/jobs/${state.job.id}`, { method: 'DELETE'});
+        toast.success('Job Deleted Successfully');
+        router.push('/jobs');
+    } catch (error) {
+        console.error('Error while deleting a job', error);
+        toast.error('Job Not Deleted');
+    }
+}
 
 onMounted(async () => {
     try {
@@ -98,6 +117,7 @@ onMounted(async () => {
               >
               <button
                 class="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline mt-4 block"
+                @click="deleteJob"
               >
                 Delete Job
               </button>
