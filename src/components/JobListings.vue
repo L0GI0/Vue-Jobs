@@ -3,6 +3,8 @@ import JobListing from './JobListing.vue'
 import { RouterLink } from 'vue-router';
 import PulseLoader from 'vue-spinner/src/PulseLoader.vue';
 
+const baseUrl = import.meta.env.VITE_API_BASE_URL;
+
 import { reactive, defineProps, onMounted } from 'vue';
 
 const props = defineProps({
@@ -20,7 +22,7 @@ const state = reactive({
 
 onMounted(async () => {
     try {
-        const response = await fetch('/api/jobs', { method: 'GET' })
+        const response = await fetch(`${baseUrl}/jobs`, { method: 'GET' })
         state.jobs = await response.json();
     } catch (error) {
         console.error('Error fetching jobs', error);

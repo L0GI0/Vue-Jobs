@@ -3,6 +3,8 @@ import { reactive } from 'vue';
 import { useRouter } from 'vue-router';
 import { useToast } from 'vue-toastification';
 
+const baseUrl = import.meta.env.VITE_API_BASE_URL;
+
 const router = useRouter();
 const toast = useToast();
 
@@ -37,7 +39,7 @@ const handleSubmit = async () => {
   };
 
   try {
-    const response = await fetch(`/api/jobs/`, {
+    const response = await fetch(`${baseUrl}/jobs/`, {
       body: JSON.stringify(newJob),
       method: 'POST',
       headers: { 'Content-Type': 'application/json' }

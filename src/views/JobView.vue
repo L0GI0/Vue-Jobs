@@ -5,6 +5,9 @@ import { reactive, onMounted } from 'vue';
 import { useRoute, RouterLink, useRouter } from 'vue-router';
 import { useToast } from 'vue-toastification';
 
+const baseUrl = import.meta.env.VITE_API_BASE_URL;
+
+
 const route = useRoute();
 const router = useRouter();
 const jobId = route.params.id;
@@ -22,7 +25,7 @@ const deleteJob = async () => {
         if(!confirm)
             return;
         
-        await fetch(`/api/jobs/${state.job.id}`, { method: 'DELETE'});
+        await fetch(`${baseUrl}/jobs/${state.job.id}`, { method: 'DELETE'});
         toast.success('Job Deleted Successfully');
         router.push('/jobs');
     } catch (error) {
@@ -33,7 +36,7 @@ const deleteJob = async () => {
 
 onMounted(async () => {
     try {
-        const response = await fetch(`/api/jobs/${jobId}`, { method: 'GET'})
+        const response = await fetch(`${baseUrl}/jobs/${jobId}`, { method: 'GET'})
         state.job = await response.json();
         console.log(`state.job =`, state.job);
     } catch (error) {
