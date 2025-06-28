@@ -3,9 +3,9 @@ import jobData from '@/jobs.json'
 import JobListing from './JobListing.vue'
 import { RouterLink } from 'vue-router';
 
-import { ref, defineProps } from 'vue';
+import { reactive, defineProps, onMounted } from 'vue';
 
-defineProps({
+const props = defineProps({
     limit: Number,
     showButton: {
         type: Boolean,
@@ -13,7 +13,21 @@ defineProps({
     }
 })
 
-const jobs = ref(jobData);
+const state = reactive({
+    jobs: [],
+    isLoading: true
+});
+
+onMounted(async () => {
+    try {
+        const response = await fetch('http://localhost:5000/jobs', { method: 'GET' })
+        state.jobs = await response.json();
+    } catch (error) {
+        console.error('Error fetching jobs', error);
+    } finally {
+        state.isLoading = false;
+    }
+});
 
 </script>
 
@@ -25,7 +39,7 @@ const jobs = ref(jobData);
                 Browse Jobs
             </h2>
             <div class="grid grid-cols md:grid-cols-3 gap-6 ">
-                <JobListing v-for="job in jobs.slice(0, limit || jobs.length)" :key="job.id" :job="job"/>
+                <JobListing v-for="job in state.jobs.slice(0, limit || state.jobs.length)" :key="job.id" :job="job"/>
             </div>
         </div>
     </section>
