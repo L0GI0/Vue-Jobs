@@ -1,7 +1,7 @@
 {
   "jobs": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Senior Vue Developer",
       "type": "Full-Time",
       "description": "We are seeking a talented Front-End Developer to join our team in Boston, MA. The ideal candidate will have strong skills in HTML, CSS, and JavaScript, with experience working with modern JavaScript frameworks such as Vue or Angular.",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Front-End Engineer (Vue)",
       "type": "Full-Time",
       "description": "Join our team as a Front-End Developer in sunny Miami, FL. We are looking for a motivated individual with a passion for crafting beautiful and responsive web applications. Experience with UI/UX design principles and a strong attention to detail are highly desirable.",
@@ -29,7 +29,7 @@
       }
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Vue.js Developer",
       "type": "Full-Time",
       "description": "Are you passionate about front-end development? Join our team in vibrant Brooklyn, NY, and work on exciting projects that make a difference. We offer competitive compensation and a collaborative work environment where your ideas are valued.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Vue Front-End Developer",
       "type": "Part-Time",
       "description": "Join our team as a Part-Time Front-End Developer in beautiful Pheonix, AZ. We are looking for a self-motivated individual with a passion for creating engaging user experiences. This position offers flexible hours and the opportunity to work remotely.",
@@ -57,7 +57,7 @@
       }
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Full Stack Vue Developer",
       "type": "Full-Time",
       "description": "Exciting opportunity for a Full-Time Front-End Developer in bustling Atlanta, GA. We are seeking a talented individual with a passion for building elegant and scalable web applications. Join our team and make an impact!",
@@ -71,7 +71,7 @@
       }
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Vue Native Developer",
       "type": "Full-Time",
       "description": "Join our team as a Front-End Developer in beautiful Portland, OR. We are looking for a skilled and enthusiastic individual to help us create innovative web solutions. Competitive salary and great benefits package available.",
@@ -82,6 +82,314 @@
         "description": "Port Solutions is a leading technology company specializing in software development and digital marketing. We are committed to providing our clients with cutting-edge solutions and our employees with a supportive and rewarding work environment.",
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "7b3c",
+      "title": "Kyra Francis",
+      "type": "Remote",
+      "location": "Architecto ut animi",
+      "description": "Voluptas ex eum ut a",
+      "salary": "$80K - $90K",
+      "company": {
+        "name": "Bryan and Neal Plc",
+        "description": "Similique sint incid",
+        "contactEmail": "xilemy@mailinator.com",
+        "contactPhone": "+1 (747) 277-2964"
+      }
+    },
+    {
+      "id": "ac49",
+      "title": "Bo Ewing",
+      "type": "Internship",
+      "location": "Sit adipisci sint es",
+      "description": "Eaque et sapiente vo",
+      "salary": "$150K - $175K",
+      "company": {
+        "name": "Baird Fulton Inc",
+        "description": "Alias porro officia ",
+        "contactEmail": "satisoc@mailinator.com",
+        "contactPhone": "+1 (195) 447-3527"
+      }
+    },
+    {
+      "id": "71c1",
+      "title": "Quentin Ball",
+      "type": "Remote",
+      "location": "Sunt ut consequatur ",
+      "description": "Unde harum facere de",
+      "salary": "$175K - $200K",
+      "company": {
+        "name": "Neal Hancock LLC",
+        "description": "In elit exercitatio",
+        "contactEmail": "wahoqejuvu@mailinator.com",
+        "contactPhone": "+1 (658) 453-4544"
+      }
+    },
+    {
+      "id": "6aa8",
+      "title": "Demetrius Mcdonald",
+      "type": "Full-Time",
+      "location": "Tempore consequatur",
+      "description": "Eius qui doloremque ",
+      "salary": "$60K - $70K",
+      "company": {
+        "name": "Gates Mcmillan Trading",
+        "description": "Anim excepteur archi",
+        "contactEmail": "xiqitedygi@mailinator.com",
+        "contactPhone": "+1 (451) 305-4357"
+      }
+    },
+    {
+      "id": "0429",
+      "title": "Venus Walker",
+      "type": "Remote",
+      "location": "Ut eu sit itaque cum",
+      "description": "Et doloribus laudant",
+      "salary": "$90K - $100K",
+      "company": {
+        "name": "Gay and Vega Associates",
+        "description": "Aliquid in error pra",
+        "contactEmail": "zowulory@mailinator.com",
+        "contactPhone": "+1 (868) 294-9655"
+      }
+    },
+    {
+      "id": "9eba",
+      "title": "Myles Barrera",
+      "type": "Part-Time",
+      "location": "Maxime amet eiusmod",
+      "description": "Ut magnam sit a ven",
+      "salary": "$150K - $175K",
+      "company": {
+        "name": "Wilder and Long Co",
+        "description": "Officiis dolorem et ",
+        "contactEmail": "biposiduc@mailinator.com",
+        "contactPhone": "+1 (793) 405-6734"
+      }
+    },
+    {
+      "id": "0afc",
+      "title": "Zeph Cantu",
+      "type": "Part-Time",
+      "location": "Et ea facere consequ",
+      "description": "Non voluptatem qui ",
+      "salary": "$150K - $175K",
+      "company": {
+        "name": "Contreras Duncan Plc",
+        "description": "Amet dolor impedit",
+        "contactEmail": "zucib@mailinator.com",
+        "contactPhone": "+1 (926) 732-8667"
+      }
+    },
+    {
+      "id": "43a0",
+      "title": "Keely Mcclain",
+      "type": "Full-Time",
+      "location": "Quam magna qui aut s",
+      "description": "Et qui quasi cupidat",
+      "salary": "$90K - $100K",
+      "company": {
+        "name": "Slater Decker Associates",
+        "description": "Tempora eaque distin",
+        "contactEmail": "pimymofep@mailinator.com",
+        "contactPhone": "+1 (746) 668-1903"
+      }
+    },
+    {
+      "id": "a591",
+      "title": "Ivana Webster",
+      "type": "Remote",
+      "location": "Est minus impedit m",
+      "description": "Officiis qui quae qu",
+      "salary": "$50K - $60K",
+      "company": {
+        "name": "Hays Rodriquez Inc",
+        "description": "Anim dignissimos nat",
+        "contactEmail": "gefuwegu@mailinator.com",
+        "contactPhone": "+1 (104) 905-9645"
+      }
+    },
+    {
+      "id": "128c",
+      "title": "Ulysses Stewart",
+      "type": "Part-Time",
+      "location": "Consectetur dignissi",
+      "description": "Aperiam natus quam m",
+      "salary": "$125K - $150K",
+      "company": {
+        "name": "Holden Spence Inc",
+        "description": "Animi exercitation ",
+        "contactEmail": "bovi@mailinator.com",
+        "contactPhone": "+1 (552) 839-5921"
+      }
+    },
+    {
+      "id": "c0cf",
+      "title": "Lydia Matthews",
+      "type": "Full-Time",
+      "location": "Tenetur magna sint v",
+      "description": "Eum maiores non quo ",
+      "salary": "Over $200K",
+      "company": {
+        "name": "Hubbard Kim Associates",
+        "description": "Est laboriosam aper",
+        "contactEmail": "sedyn@mailinator.com",
+        "contactPhone": "+1 (273) 906-1439"
+      }
+    },
+    {
+      "id": "18d1",
+      "title": "Lydia Matthews",
+      "type": "Full-Time",
+      "location": "Tenetur magna sint v",
+      "description": "Eum maiores non quo ",
+      "salary": "Over $200K",
+      "company": {
+        "name": "Hubbard Kim Associates",
+        "description": "Est laboriosam aper",
+        "contactEmail": "sedyn@mailinator.com",
+        "contactPhone": "+1 (273) 906-1439"
+      }
+    },
+    {
+      "id": "9f1f",
+      "title": "Troy Allen",
+      "type": "Remote",
+      "location": "Nemo ex minim sed sa",
+      "description": "Lorem ducimus esse ",
+      "salary": "$150K - $175K",
+      "company": {
+        "name": "Aguilar Finch Inc",
+        "description": "Iusto consequatur A",
+        "contactEmail": "fycisaguke@mailinator.com",
+        "contactPhone": "+1 (283) 281-4504"
+      }
+    },
+    {
+      "id": "2029",
+      "title": "Chantale Kirk",
+      "type": "Part-Time",
+      "location": "Harum aut aliqua Vo",
+      "description": "Ea ad occaecat dolor",
+      "salary": "$60K - $70K",
+      "company": {
+        "name": "Graves Battle LLC",
+        "description": "Commodo quidem moles",
+        "contactEmail": "pysacu@mailinator.com",
+        "contactPhone": "+1 (207) 805-9533"
+      }
+    },
+    {
+      "id": "143d",
+      "title": "Sean Wilkins",
+      "type": "Remote",
+      "location": "Proident explicabo",
+      "description": "Aut illum laborum ",
+      "salary": "$90K - $100K",
+      "company": {
+        "name": "Shepard Sanchez Associates",
+        "description": "Rem vero est nulla e",
+        "contactEmail": "rypup@mailinator.com",
+        "contactPhone": "+1 (102) 839-9605"
+      }
+    },
+    {
+      "id": "ee10",
+      "title": "Brennan Patel",
+      "type": "Full-Time",
+      "location": "Sed voluptas aut tem",
+      "description": "Occaecat aliquid eni",
+      "salary": "$60K - $70K",
+      "company": {
+        "name": "Fry and Hendrix Inc",
+        "description": "Cillum nihil sunt ne",
+        "contactEmail": "zytos@mailinator.com",
+        "contactPhone": "+1 (776) 542-8756"
+      }
+    },
+    {
+      "id": "9b6b",
+      "title": "Tallulah James",
+      "type": "Internship",
+      "location": "Magnam rerum nisi in",
+      "description": "Inventore dicta ipsu",
+      "salary": "$125K - $150K",
+      "company": {
+        "name": "Dixon Morrow Trading",
+        "description": "Irure corporis molli",
+        "contactEmail": "cubibo@mailinator.com",
+        "contactPhone": "+1 (584) 699-9685"
+      }
+    },
+    {
+      "id": "cf79",
+      "title": "Brandon Hopkins",
+      "type": "Internship",
+      "location": "Autem possimus aut ",
+      "description": "Non adipisci nihil m",
+      "salary": "$175K - $200K",
+      "company": {
+        "name": "Preston Richard Associates",
+        "description": "Illum maxime deleni",
+        "contactEmail": "cofivan@mailinator.com",
+        "contactPhone": "+1 (569) 479-2503"
+      }
+    },
+    {
+      "id": "0074",
+      "title": "Libby Wilkinson",
+      "type": "Full-Time",
+      "location": "Aliquip ullam numqua",
+      "description": "Earum harum voluptat",
+      "salary": "Over $200K",
+      "company": {
+        "name": "Craig and Chan Associates",
+        "description": "Enim enim commodi a ",
+        "contactEmail": "bepad@mailinator.com",
+        "contactPhone": "+1 (243) 249-3552"
+      }
+    },
+    {
+      "id": "ee4d",
+      "title": "Cynthia Powell",
+      "type": "Remote",
+      "location": "Aut rerum ut quis su",
+      "description": "Ipsa esse iure sit",
+      "salary": "$150K - $175K",
+      "company": {
+        "name": "Carson and Wood Associates",
+        "description": "Nostrud eos alias r",
+        "contactEmail": "jadituzomo@mailinator.com",
+        "contactPhone": "+1 (576) 616-8536"
+      }
+    },
+    {
+      "id": "5c4f",
+      "title": "Nelle Hinton",
+      "type": "Part-Time",
+      "location": "In ipsum at et et",
+      "description": "Voluptas quasi odio ",
+      "salary": "$100K - $125K",
+      "company": {
+        "name": "Smith and Kemp Co",
+        "description": "Dolor do inventore l",
+        "contactEmail": "fuwibemowo@mailinator.com",
+        "contactPhone": "+1 (403) 786-6725"
+      }
+    },
+    {
+      "id": "3817",
+      "title": "Beverly Holcomb",
+      "type": "Full-Time",
+      "location": "Cum Nam modi necessi",
+      "description": "Repudiandae rem et i",
+      "salary": "$125K - $150K",
+      "company": {
+        "name": "Spears and Downs Co",
+        "description": "Dolores dolorem sint",
+        "contactEmail": "gojiqoxala@mailinator.com",
+        "contactPhone": "+1 (891) 672-9193"
       }
     }
   ]

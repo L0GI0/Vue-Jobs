@@ -1,5 +1,4 @@
 <script setup>
-import jobData from '@/jobs.json'
 import JobListing from './JobListing.vue'
 import { RouterLink } from 'vue-router';
 import PulseLoader from 'vue-spinner/src/PulseLoader.vue';
@@ -21,7 +20,7 @@ const state = reactive({
 
 onMounted(async () => {
     try {
-        const response = await fetch('http://localhost:5000/jobs', { method: 'GET' })
+        const response = await fetch('/api/jobs', { method: 'GET' })
         state.jobs = await response.json();
     } catch (error) {
         console.error('Error fetching jobs', error);
@@ -29,7 +28,6 @@ onMounted(async () => {
         state.isLoading = false;
     }
 });
-
 </script>
 
 <template>
